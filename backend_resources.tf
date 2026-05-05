@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "terraform_state" {
+/*resource "aws_s3_bucket" "terraform_state" {
   bucket = "tf-aws-policy"
   acl    = "private"
 
@@ -10,3 +10,4 @@ resource "aws_s3_bucket" "terraform_state" {
     Name = "Terraform state bucket"
   }
 }
+*/
